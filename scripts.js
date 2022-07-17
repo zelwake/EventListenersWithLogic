@@ -6,9 +6,7 @@ $("#secondButton").click(() => {
     $("#firstButton").text("Clicked");
 })
 
-let colorInput = $("#colorInInput").val();
-console.log($("#colorInInput").val())
-
 $("#thirdButton").click(() => {
+    let colorInput = $("#colorInInput").val();
     $("button").css("background-color", colorInput);
 })
